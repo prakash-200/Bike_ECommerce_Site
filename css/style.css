@@ -41,6 +41,10 @@ body{
     color: #FF0202;
 }
 
-
-
 /************************** NAV BAR end ************************/
+
+marquee{
+    background-color: #ffff;
+    color: #FF0202;
+    opacity: .7;
+}
