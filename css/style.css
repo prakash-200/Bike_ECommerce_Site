@@ -5,14 +5,12 @@ body{
     background-size: cover;
 }
 
+/******************** HEADER PART LOGO AND LOGIN start **********************/
+
 .yamaha_logo{
     height: 100px;
     width: 200px;
 }
-
-/* .row{
-    background-color: aqua;
-} */
 
 .btn-login{
     border-top-left-radius: 10px;
@@ -26,3 +24,23 @@ body{
     background-color: #FF0202;
     color: #ffff;
 }
+
+/************************** HEADER PART end ***************************/
+
+/************************** NAV BAR start ************************/
+
+.navbar a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffff;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: #FF0202;
+}
+
+
+
+/************************** NAV BAR end ************************/
