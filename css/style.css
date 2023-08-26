@@ -33,7 +33,8 @@ body{
     text-decoration: none;
     letter-spacing: 1px;
     color: #ffff;
-    font-weight: bold;
+    font-weight: bolder;
+
 
 }
 
@@ -51,7 +52,7 @@ marquee{
 
 /**************************** HOME PAGE AD start ***************************/
 
-.ad{
+/* .ad{
     height: 400px;
     width: 600px;   
     background-color: #B7B6B7; 
@@ -71,6 +72,27 @@ marquee{
     color: #ffff;
     font-weight: 400;
     font-size: small;
-}
+} */
 
 /**************************** HOME PAGE AD end **************************/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

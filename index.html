@@ -10,6 +10,9 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css" />
+
 
 </head>
 <body>
@@ -36,30 +39,79 @@
         &emsp;NEW LAUNCH BIKES &emsp; 15% DISCOUNT SALE &emsp; 1000 DOWN PAYMENT &emsp;0% INTEREST
         </marquee>
 
-        <div class="container ad my-2">
-            <div class="row align-items-center">
-                <div class="col">
-                    <div class=".img-fluid max-width: 100%;">
-                        <img src="./images/mt15.png" alt="mt15" height="300px" width="600px">
+        <div class="swiper mySwiper">
+            <div class="swiper_wrapper">
+                <div class="swiper-slide">
+                    <div class="container ad my-2">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class=".img-fluid max-width: 100%;">
+                                    <img src="./images/mt15.png" alt="mt15" height="300px" width="600px">
+                                </div>
+                            </div>
+                            <div class="col home_ad1">
+                                <h2> MT-15 V3</h2>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #e6ad0f;"></i>
+                                <h5 class="my-2">Rs 1,60,900 - 1,64,400*</h5>
+                                <h6>*Ex-showroom Price in Delhi</h6>
+                            </div>
+                            
+                        </div>  
+                        
                     </div>
                 </div>
-                <div class="col home_ad1">
-                    <h2> MT-15 V3</h2>
-                    <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
-                    <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
-                    <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
-                    <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
-                    <i class="fa-solid fa-star-half-stroke" style="color: #e6ad0f;"></i>
-                    <h5 class="my-2">Rs 1,60,900 - 1,64,400*</h5>
-                    <h6>*Ex-showroom Price in Delhi</h6>
+                <div class="swiper-slide">
+                    <div class="container ad my-2">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class=".img-fluid max-width: 100%;">
+                                    <img src="./images/r15v4.webp" alt="r15" height="300px" width="600px">
+                                </div>
+                            </div>
+                            <div class="col home_ad1">
+                                <h2> R15 V4</h2>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6ad0f;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #e6ad0f;"></i>
+                                <h5 class="my-2">Rs 1.82 - 1.95 Lakh*</h5>
+                                <h6>*Ex-showroom Price in Delhi</h6>
+                            </div>
+                            
+                        </div>  
+                        
+                    </div>
                 </div>
-                
-            </div>  
-            
+            </div>
         </div>
 
+        <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+            </div>
+          </div> -->
+
         
+
+
         
+
+
+        
+    <!-- Link Swiper's JS -->
+    <script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {});
+  </script>
+</body>
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
