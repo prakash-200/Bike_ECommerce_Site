@@ -48,3 +48,13 @@ marquee{
     color: #FF0202;
     opacity: .7;
 }
+
+/**************************** HOME PAGE AD start ***************************/
+
+.ad{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+}
+
+/**************************** HOME PAGE AD end **************************/
