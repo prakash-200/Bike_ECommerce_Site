@@ -53,7 +53,8 @@ marquee{
 
 .ad{
     height: 400px;
-    width: 600px;    
+    width: 600px;   
+    background-color: #B7B6B7; 
 }
 
 .home_ad1 h2{
