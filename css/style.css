@@ -103,3 +103,8 @@ marquee{
   .swiper-slide h5, .swiper-slide h6{
     color: #FFFF;
   }
+
+  .title{
+    font-family: 'Times New Roman', Times, serif;
+   color: #FF0202;
+}
