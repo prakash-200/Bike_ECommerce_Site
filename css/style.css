@@ -53,8 +53,23 @@ marquee{
 
 .ad{
     height: 400px;
-    width: 600px;
-    background-color: white;
+    width: 600px;    
+}
+
+.home_ad1 h2{
+    color: #FF0202;
+    font-weight: bold;
+}
+
+.home_ad1 h5{
+    color: #ffff;
+    font-weight: 600;
+}
+
+.home_ad1 h6{
+    color: #ffff;
+    font-weight: 400;
+    font-size: xx-small;
 }
 
 /**************************** HOME PAGE AD end **************************/
