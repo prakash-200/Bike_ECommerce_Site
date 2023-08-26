@@ -59,7 +59,7 @@ marquee{
 
 .home_ad1 h2{
     color: #FF0202;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .home_ad1 h5{
@@ -70,7 +70,7 @@ marquee{
 .home_ad1 h6{
     color: #ffff;
     font-weight: 400;
-    font-size: xx-small;
+    font-size: small;
 }
 
 /**************************** HOME PAGE AD end **************************/
