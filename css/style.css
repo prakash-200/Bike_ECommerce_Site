@@ -13,16 +13,20 @@ body{
 }
 
 .btn-login{
+    width: 80px;
+    height: 30px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #FF0202;
+    background-color: #FF0202;
+    color: #FFFF;
     font-weight: bold;
-    background-color: #ffff;
+    text-align: center;
+    
 }
 
 .btn-login:hover{
-    background-color: #FF0202;
-    color: #ffff;
+    background-color: #FFFF;
+    color: #FF0202;
 }
 
 /************************** HEADER PART end ***************************/
@@ -90,6 +94,7 @@ marquee{
 
 ::placeholder{
     color: #FF0202;
+    text-align: center;
 }
 
 /********************************** CONTACT PAGE end ******************************/
@@ -117,3 +122,38 @@ marquee{
 }
 
 /*********************************** ABOUT PAGE end *******************************/
+
+/************************************ SIGN IN PAGE start **************************/
+
+.sign_in_para{
+    color: #ffff;
+}
+
+.sign_in_btn{
+    width: 30px;
+    height: 30px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign_in_inp{
+    border: 1px solid #C0C0C0;
+    height: 30px;
+    width: 300px;
+    background-color: #F8F9FA;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sign_in_smt{
+    width: 100px;
+    height: 30px;
+}
+
+.sign_in_inp:hover{
+    border: 2px solid #386BC0;
+}
+/************************************* SIGN IN PAGE end ****************************/
