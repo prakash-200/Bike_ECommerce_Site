@@ -76,4 +76,44 @@ marquee{
 /********************************** HOME PAGE end *******************************/
 
 /********************************** CONTACT PAGE start ******************************/
+
+.cnt{
+    border: none;
+    border-bottom-color:2px solid #FF0202;
+
+}
+
+.cont:hover{
+    border: none;
+
+}
+
+::placeholder{
+    color: #FF0202;
+}
+
 /********************************** CONTACT PAGE end ******************************/
+
+/************************************ ABOUT PAGE start ****************************/
+
+.abt_home{
+    color: #FF0202;
+}
+
+.abt_para1{
+    color: #ffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.abt_para2{
+    color: #FF0202;
+    letter-spacing: 1px;
+}
+
+.abt_para3{
+    color: #FF0202;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*********************************** ABOUT PAGE end *******************************/
