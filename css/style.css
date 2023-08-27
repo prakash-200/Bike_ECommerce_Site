@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/**************************** HOME PAGE start *******************************/
 /******************** HEADER PART LOGO AND LOGIN start **********************/
 
 .yamaha_logo{
@@ -51,54 +51,17 @@ marquee{
     opacity: .7;
 }
 
-/**************************** HOME PAGE AD start ***************************/
-
-/* .ad{
-    height: 400px;
-    width: 600px;   
-    background-color: #B7B6B7; 
-}
-
-.home_ad1 h2{
-    color: #FF0202;
-    font-weight: bolder;
-}
-
-.home_ad1 h5{
-    color: #ffff;
-    font-weight: 600;
-}
-
-.home_ad1 h6{
-    color: #ffff;
-    font-weight: 400;
-    font-size: small;
-} */
-
-/**************************** HOME PAGE AD end **************************/
+/******************************* HOME PAGE BIKE AD start ****************************/
 
  .swiper {
     width: 100%;
     height: 100%;
   } 
 
-  /* .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
     .swiper-slide .img1 {
         height: 400px;
         width: 600px;
   }  
-
-  /* .swiper-slide .row{
-    background-color: #ffff;
-  } */
   
   .swiper-slide h5, .swiper-slide h6{
     color: #FFFF;
@@ -108,3 +71,9 @@ marquee{
     font-family: 'Times New Roman', Times, serif;
    color: #FF0202;
 }
+
+/********************************* HOME PAGE BIKE AD end ****************************/
+/********************************** HOME PAGE end *******************************/
+
+/********************************** CONTACT PAGE start ******************************/
+/********************************** CONTACT PAGE end ******************************/
