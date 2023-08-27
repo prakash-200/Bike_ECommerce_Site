@@ -47,6 +47,10 @@ body{
     color: #FF0202;
 }
 
+.abt_home:hover{
+    color: #FFFF;
+}
+
 /************************** NAV BAR end ************************/
 
 marquee{
