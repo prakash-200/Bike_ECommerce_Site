@@ -138,26 +138,42 @@ marquee{
     height: 30px;
 }
 
-.form-group{
+/* .form-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 .sign_in_inp{
     border: 1px solid #C0C0C0;
     height: 30px;
     width: 300px;
     background-color: #F8F9FA;
+    opacity: .7;
+    border-radius: 10px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .sign_in_smt{
     width: 100px;
     height: 30px;
+    color: #FF0202;
+    letter-spacing: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .sign_in_inp:hover{
-    border: 2px solid #386BC0;
+    border: 2px solid #FF0202;
 }
+
+.sign_in_smt:hover{
+    background-color: #FF0202;
+    color: #ffff;
+}
+
+.login_footer{
+}
+
 /************************************* SIGN IN PAGE end ****************************/
