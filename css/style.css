@@ -224,6 +224,7 @@ marquee{
     color: #C0C0C0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
+    letter-spacing: 1px;
 }
 
 .pdt_list li::before{
