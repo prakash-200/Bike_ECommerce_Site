@@ -166,6 +166,7 @@ marquee{
 
 .sign_in_inp:hover{
     border: 2px solid #FF0202;
+    background-color: #9df3ae;
 }
 
 .sign_in_smt:hover{
@@ -177,3 +178,61 @@ marquee{
 }
 
 /************************************* SIGN IN PAGE end ****************************/
+
+/************************************** PRODUCT PAGE start **************************/
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.kwn_bg{
+    background-color: #FF0202;
+    color: #FFFF;
+}
+
+.kwn{
+    text-decoration: none;
+}
+
+.kwn_bg:hover{
+    background-color: #FFFF;
+    color: #FF0202;
+}
+
+.kwn_bg i:hover{
+    color: #FFFF;
+}
+
+.pdt_swiper{
+    position: relative;
+    top: 20px;
+}
+
+.pdt_name{
+    color: #FF0202;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pdt_title{
+    color: #FFFF;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pdt_list{
+    color: #C0C0C0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+.pdt_list li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/************************************** PRODUCT PAGE end **************************/

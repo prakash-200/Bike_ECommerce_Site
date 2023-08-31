@@ -12,26 +12,97 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-</head>
-<body>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css" />
 
-    <!---------------------------------------- HEADER start ---------------------------- -->
+</head>
+<body style="height: 100vh;">
+    <div class="product_res" style="height: 100%;">
+
+    <!--  header start -->
     <div class="container">
         <div class="navbar">
-            
-                    <img src="images/yamaha-logo.png" alt="yamaha" class="yamaha_logo">
-                    <button class="btn-login">LOGIN</button>   
+           <img src="images/yamaha-logo.png" alt="yamaha" class="yamaha_logo">
+           <button class="btn-login">LOGIN</button>   
         </div>
-    </div>
-
-    <div class="navbar justify-content-around">
-        <a href="index.html">HOME</a>
-        <a href="product.html">PRODUCTS</a>
-        <a href="service.html">SERVICES</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="about.html">ABOUT</a>
-    </div>
-    <!---------------------------------------- HEADER end ------------------------------->
     
+
+       <div class="navbar justify-content-around">
+          <a href="index.html">HOME</a>
+          <a href="product.html">PRODUCTS</a>
+          '<a href="service.html">SERVICES</a>
+          <a href="contact.html">CONTACT</a>
+          <a href="about.html">ABOUT</a>
+       </div>
+    <!-- HEADER end -->
+    
+    <!-- Swiper -->
+    <div class="row my-2">
+        <div class="pdt_swiper swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./images/products/r15m.webp" alt="R15-M" class="img-thumbnail">
+                    </div>
+                    <div class="col-6 my-2">
+                        <h4 class="pdt_name fw-bolder fs-1">R15 M</h4>  
+                        <p class="pdt_title fw-bold">Specifications :</p>
+                        <ul class="pdt_list fw-semibold">
+                          <li>Dual Horn</li>
+                          <li>Aluminium Swingarm</li>
+                          <li>E20 Fuel Compatible</li>
+                          <li>Dual Channel ABS</li>
+                          <li>Y-Connect App</li>
+                        </ul>
+                        <a href="#" class="kwn d-flex justify-content-end mx-5 my-5 fw-bold">
+                            <div class="kwn_bg rounded-5" style="width: 130px; height: 30px;">
+                                <i class="fa-solid fa-magnifying-glass fa-fade mx-2 my-2 fw-bold" style="color: #fafafa;"></i>
+                            Know More
+                            </div>
+                            </a>
+                    </div>
+                </div>
+                
+               </div>
+               <div class="swiper-slide">R15 V4</div>
+               <div class="swiper-slide">R15S</div>
+               <div class="swiper-slide">MT-15 Ver 3.0</div>
+               <div class="swiper-slide">FZS 25</div>
+               <div class="swiper-slide">FZ 25</div>
+               <div class="swiper-slide">FZ-X</div>
+               <div class="swiper-slide">FZ-S FI Ver 4.0 DLX</div>
+               <div class="swiper-slide">FZ-S FI Ver 3.0</div>
+               <div class="swiper-slide">Yamaha Ray ZR 125</div>
+               <div class="swiper-slide">Yamaha Fascino 125</div>
+               <div class="swiper-slide">Yamaha RX 100</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+    </div>
+        
+</div>
+</div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
 </body>
 </html>
