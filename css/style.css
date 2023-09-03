@@ -369,9 +369,7 @@ textarea:focus{
 }
 
 .pdt_img{
-    background-image: url('../images/r15v4.webp');
     background-size: cover;
-    background-position: center;
 }
 
 .footer{
