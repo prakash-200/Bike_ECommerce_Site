@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>YAMAHA</title>
-    <link rel="shortcut icon" href="./images/title-logo.png" type="x-icon">
+    <link rel="icon" href="./images/site-logo.png">
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -20,7 +20,7 @@
         <div class="navbar">
             
                     <img src="images/yamaha-logo.png" alt="yamaha" class="yamaha_logo">
-                    <button class="btn-login">LOGIN</button>   
+                    <a href="sign_in.html" class="btn-login text-decoration-none">SIGN IN</a>   
         </div>
     </div>
 
@@ -34,33 +34,37 @@
     <!---------------------------------------- HEADER end ------------------------------->
     
     <div class="container">
-        <div class="row bg-info my-5">
+        <div class="row my-5">
             <div class="col">
-                <div class="row">
-                    <p>MAIL :</p>
-                <p>yes@yamaha-motor-india.com</p>
-                </div>
-                <div class="row">
-                    <p>OFFICIAL SITE :</p>
-                    <a href="https://www.yamaha-motor-india.com/">Click Here </a>
-                </div>
-                <div class="row">
-                    <p>INSTAGRAM :</p>
-                    <p>@yamahamotorindia</p>
-                </div>
-                <div class="row">
-                    <P>TOLL FREE :</P>
-                    <p>+1800 420 1600</p>
-                </div>
+                
+                    <i class="fa-solid fa-envelope fa-beat" style="color: #ffffff;"></i>
+                    <span class="cnt_sm fw-bold">MAIL :</span>
+                    <p class="cnt_sm_cnt mx-5">yes@yamaha-motor-india.com</p>
+                
+                    <i class="fa-solid fa-globe fa-beat" style="color: #fafafa;"></i>
+                    <span class="cnt_sm fw-bold">OFFICIAL SITE :</span>
+                    <a href="https://www.yamaha-motor-india.com/" class="cnt_sm_cnt mx-2">Click Here </a><br><br>
+                
+                    <i class="fa-solid fa-hashtag fa-beat" style="color: #ffffff;"></i>
+                    <span class="cnt_sm fw-bold">INSTAGRAM :</span><br>
+                    <p class="cnt_sm_cnt mx-5">@yamahamotorindia</p>
+                
+                    <i class="fa-solid fa-phone fa-beat" style="color: #ffffff;"></i>
+                    <span class="cnt_sm fw-bold"> TOLL FREE :</span>
+                    <p class="cnt_sm_cnt mx-5">+1800 420 1600</p>
+                
             </div>
-            <div class="col bg-light">
-                <input type="text" placeholder="Enter Name" class="cnt cnt-name"><br>
-                <input type="email" placeholder="Enter Email" class="cnt cnt-email"><br>
-                <input type="password" placeholder="Enter Password" min="8" max="15" class="cnt cnt-pswd"><br>
-                <textarea name="" id="" cols="60" rows="5" placeholder="Feedback" class="cnt cnt-fd"></textarea><br>
-                <input type="button" placeholder="submit" class="cnt-btn">
+            <div class="col">
+                <input type="text" placeholder="Enter Name" class="cnt cnt-name fw-bold mb-1"><br>
+                <input type="email" placeholder="Enter Email" class="cnt cnt-email fw-bold mb-1"><br>
+                <input type="password" placeholder="Enter Password" min="8" max="15" class="cnt cnt-pswd fw-bold mb-1"><br>
+                <textarea name="" id="" cols="60" rows="5" placeholder="Feedback" class="cnt cnt-fd fw-bold mb-1"></textarea><br>
+                <input type="button" value="submit" placeholder="submit" class="cnt_smt justify-content-center">
+                    
             </div>
         </div>
+
     </div>
+    <div class="cnt_footer"></div>
 </body>
 </html>

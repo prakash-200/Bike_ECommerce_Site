@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>YAMAHA</title>
-    <link rel="shortcut icon" href="./images/title-logo.png" type="x-icon">
+    <link rel="icon" href="./images/site-logo.png">
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -23,7 +23,7 @@
     <div class="container">
         <div class="navbar">
            <img src="images/yamaha-logo.png" alt="yamaha" class="yamaha_logo">
-           <button class="btn-login">LOGIN</button>   
+           <a href="sign_in.html" class="btn-login text-decoration-none">SIGN IN</a>   
         </div>
     
 
@@ -53,20 +53,23 @@
                           <li>Dual Channel ABS</li>
                           <li>Y-Connect App</li>
                         </ul>
-                        <a href="#" class="kwn fw-bold">
-                            <div class="kwn_bg rounded-5" style="width: 130px; height: 30px;">
-                                <i class="fa-solid fa-magnifying-glass fa-fade mx-2 my-2 fw-bold" style="color: #fafafa;"></i>
-                            Know More
-                            </div>
-                         </a>
+                        <div class="row align-self-end mt-5 mx-5">
+                            <a href="#" class="kwn fw-bold">
+                                <div class="kwn_bg rounded-5" style="width: 130px; height: 30px;">
+                                    <i class="fa-solid fa-magnifying-glass fa-fade mx-2 my-2 fw-bold" style="color: #fafafa;"></i>
+                                Know More
+                                </div>
+                             </a>
+                        </div>
+                        
                     </div>
                 </div>
                </div>
 
                <div class="swiper-slide">
                 <div class="row">
-                    <div class="col-6">
-                        <img src="./images/products/r15v4.webp" alt="R15-M" class="img-fluid">
+                    <div class="col-6 bg-danger d-flex justify-content-center">
+                        <img src="./images/r15v4.webp" alt="r15-v4" class="img-thumbnail" height="60px" width="350px">
                     </div>
                     <div class="col-6 my-2">
                         <h4 class="pdt_name fw-bolder fs-1">R15 V4</h4>  
@@ -75,13 +78,11 @@
                           <li>Traction Control System</li>
                           <li>Quick Shifter</li>
                           <li>Side Stand Engine Cut-Off Switch</li>
-                          <li>Dual Channel ABS</li>
-                          <li>Y-Connect App</li>
                         </ul>
-                        <a href="#" class="kwn d-flex justify-content-end mx-5 my-5 fw-bold">
-                            <div class="kwn_bg rounded-5" style="width: 130px; height: 30px;">
+                        <a href="#" class="kwn fw-bold mx-3">
+                            <div class="kwn_bg rounded-5 mx-5" style="width: 130px; height: 30px;">
                                 <i class="fa-solid fa-magnifying-glass fa-fade mx-2 my-2 fw-bold" style="color: #fafafa;"></i>
-                            Know More
+                                Know More
                             </div>
                             </a>
                     </div>
@@ -100,8 +101,6 @@
                           <li>Traction Control System</li>
                           <li>Quick Shifter</li>
                           <li>Side Stand Engine Cut-Off Switch</li>
-                          <li>Dual Channel ABS</li>
-                          <li>Side Stand Engine cut-off Switch</li>
                         </ul>
                         <a href="#" class="kwn d-flex justify-content-end mx-5 my-5 fw-bold">
                             <div class="kwn_bg rounded-5" style="width: 130px; height: 30px;">
@@ -320,8 +319,14 @@
             <div class="swiper-pagination"></div>
             </div>
     </div>
+
+    <div class="row footer bg-danger">
+        <div class="img_footer"></div>
+    </div>
+    
         
-</div>
+    
+       
 </div>
 
   <!-- Swiper JS -->
