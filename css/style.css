@@ -96,7 +96,7 @@ marquee{
 .mt_wall{
     background-image: url('../images/mt_wallpaper.jpeg');
     width: 100%;
-    height: 218px;
+    height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
